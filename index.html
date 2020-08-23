@@ -11,6 +11,22 @@
 
 // チャレンジ4の回答を記載！
 
+function title() {
+  const title = document.getElementsByTagName('h1');
+  for (let h1 of title) {
+    h1.classList.add('title');
+  }
+}
+title();
+
+function paragraphReset() {
+  const paragraph = document.getElementsByTagName('p');
+  for (let p of paragraph) {
+    p.classList.remove('paragraph');
+  }
+}
+
+paragraphReset();
 
 
 </script>
